@@ -1,0 +1,146 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.slider-area{
+    margin: 30px auto;
+    padding: 30px;
+    width: 800px;
+}
+.slider-area .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  .slider-area .swiper-slide img {
+    width: 100%;
+  }
+  .single-slide {
+    position: relative;
+  }
+  .single-slide a {
+    display: inline-block;
+    padding: 5px;
+  }
+  .single-slide h2 {
+    position: absolute;
+    color: #fff;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .slider-area .swiper-wrapper {
+    padding-bottom: 55px;
+  }
+  .slider-area .swiper-scrollbar {
+    bottom: 54px;
+  }
+  .slider-area .swiper-button-next, 
+  .slider-area .swiper-button-prev {
+    top: 95%;
+  }
+  .slider-area .swiper-button-next {
+    right: 3px;
+  }
+  .slider-area .swiper-button-prev {
+     left: 7px;
+  }
+  .slider-area .swiper-scrollbar {
+    bottom: 18px;
+  }
+  .slider-area .swiper-button-next,
+  .slider-area .swiper-button-prev {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 50%;
+    z-index: 99;
+  }
+    .slider-area .swiper-button-next::after,
+    .slider-area .swiper-button-prev::after {
+    font-size: 18px;
+    color: #333;
+  }
+  .slider-area .swiper-button-disabled {
+    display: none;
+  }
+  @media only screen and (max-width:991px) {
+    .slider-area {
+      width: 100%;
+    }
+  }
+  /* Review Slider CSS */
+  .review-slider {
+    margin-top: 100px !important;
+    width: 800px;
+    margin: 30px auto;
+  }
+  .review-slider .swiper-wrapper {
+    padding-bottom: 55px;
+  }
+  .review-slider .swiper-scrollbar {
+    bottom: 75px;
+  }
+  .review-slider .swiper-button-next, 
+  .review-slider .swiper-button-prev {
+    top: 89%;
+  }
+  .review-slider .swiper-button-next {
+    right: 3px;
+  }
+  .review-slider .swiper-button-prev {
+     left: 7px;
+  }
+  .review-slider .swiper-scrollbar {
+    bottom: 18px;
+  }
+  .review-slider .swiper-button-next,
+  .review-slider .swiper-button-prev {
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 50%;
+    z-index: 99;
+  }
+    .review-slider .swiper-button-next::after,
+    .review-slider .swiper-button-prev::after {
+    font-size: 18px;
+    color: #333;
+  }
+  .review-slider .swiper-button-disabled {
+    display: none;
+  }
+  .single-review {
+    padding-left: 70px;
+    position: relative;
+  }
+  .single-review::after {
+    position: absolute;
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 40px;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    left: 0;
+  }
+  .single-review h2 {
+    font-size: 32px;
+  }
+  .single-review h4 {
+    font-size: 20px;
+    margin: 20px 0;
+    color: #999;
+  }
+  .single-review p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #999;
+  }
